@@ -17,10 +17,12 @@
 * arping - 给容器 IP 发送免费的 arp
 
 ### Bridge
+Readme: [Bridge](https://github.com/pikeszfish/shell-plugin-for-cni/blob/master/plugins/main/bridge/README.md)
+
 * brctl - 仅仅用到了 `brctl hairpin <bridge> <port> {on|off}`. `yum(apt) install bridge-utils`.
 
 ## TODO list
-[x] bridge(70%)
-[ ] macvlan
-[ ] ipvlan
-[ ] ptp
+- [x] bridge(70%)
+- [ ] macvlan
+- [ ] ipvlan
+- [ ] ptp
